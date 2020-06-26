@@ -8,7 +8,7 @@ $title='';
 
 
 //PARAMETRES DE CONNEXION
-define('HOSTNAME','LOCALHOST:8889');
+define('HOSTNAME','localhost:8889');
 define('DBNAME','readit_2020');
 define('USERNAME','root');
 define('USERPWD','root');
