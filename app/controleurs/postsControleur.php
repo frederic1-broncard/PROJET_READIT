@@ -3,7 +3,13 @@
 ./app/controleurs/postsControleur.php
 */
 namespace App\Controleurs\PostsControleur;
+
 use \App\Modeles\PostsModele ; //voir $posts plus bas le use use est utilisé lorsque il y a plusieurs fois actions a faire dessus
+/**
+ * [indexAction description]
+ * @param  PDO    $connexion [description]
+ * @return [type]            [description]
+ */
 function indexAction(\PDO $connexion){
   //je mets dans $posts la liste des 10 derniers posts que je demande au modèle
   include_once '../app/modeles/postsModele.php';
