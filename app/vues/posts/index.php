@@ -23,9 +23,9 @@ Variables disponibles :
                <span class="mos"><?php echo date('F', $created_at)?></span>
              </div>
            </div>
-           <h3 class="heading mb-3"><a href="#"><?php echo $post['title']; ?></a></h3>
+           <h3 class="heading mb-3"><a href="?postId = <?php echo $post['id'];?>"></a></h3>
            <p><?php echo $post['resume']; ?></p>
-           <p><a href="article.html" class="btn-custom"><span class="ion-ios-arrow-round-forward mr-3"></span>Read more</a></p>
+           <p><a href="?postId = <?php echo $post['id'];?>" class="btn-custom"><span class="ion-ios-arrow-round-forward mr-3"></span>Read more</a></p>
          </div>
        </div>
      </div>
