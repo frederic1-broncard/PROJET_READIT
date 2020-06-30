@@ -14,4 +14,4 @@ function findAll(\PDO $connexion) {
   $rs = $connexion ->query($sql);
   return $rs->fetchAll(\PDO::FETCH_ASSOC); //tableau indexé de tableau associatif
 }
-//tous ceci va se retrouver dans $posts
+//tous ceci va se retrouver dans $posts  bvvbnvbnvbn
